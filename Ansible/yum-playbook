@@ -1,0 +1,4 @@
+- name: Final Yum
+  yum:
+    name: sl
+    state: latest

@@ -1,0 +1,11 @@
+---
+- name: Final Yum
+  hosts: util-final
+  become: true
+  tasks:
+  - yum:
+      name: '*'
+      state: latest
+  - yum:
+      name: telnet
+      state: latest
