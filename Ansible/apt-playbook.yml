@@ -4,6 +4,8 @@
   become: true
   tasks:
   - apt:
+     upgrade: dist
+  - apt:
      name: "*"
      state: latest
   - apt:
