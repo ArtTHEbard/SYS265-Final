@@ -1,0 +1,11 @@
+---
+- name: Final Apt
+  hosts: docker-final
+  become: true
+  tasks:
+  - apt:
+     name: "*"
+     state: latest
+  - apt:
+     name: telnet
+     state: latest
