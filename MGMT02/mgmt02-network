@@ -1,0 +1,15 @@
+# This is the network config written by 'subiquity'
+network:
+  ethernets:
+    ens160:
+      dhcp4: false
+      addresses:
+      - 172.16.1.50/24
+      gateway4: 172.16.1.2
+      nameservers:
+          addresses:
+          - 172.16.1.12
+          - 172.16.1.13
+          search:
+          - final.local
+  version: 2
