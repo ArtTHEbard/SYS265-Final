@@ -1,0 +1,16 @@
+[firewall]
+fw1-final
+[linux]
+docker-final
+util-final
+dhcp1-final
+dhcp2-final
+[windows]
+dfs1-final
+dfs2-final
+dc1-final
+dc2-final
+mgmt01-final
+[windows:vars]
+ansible_connection=ssh
+ansible_shell_type=powershell

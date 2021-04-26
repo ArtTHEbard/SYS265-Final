@@ -1,0 +1,14 @@
+---
+- name: Final Domain
+  hosts: dc1-final
+  tasks:
+    - name: Create Domain User
+      win_domain_user:
+        name: bob
+        firstname: Bob
+        surname: Smith
+        password: P@$$Word
+        state: present
+        domain_username: final\sjohnson
+        domain_password: Thebainted1
+        domain_server: final.local
