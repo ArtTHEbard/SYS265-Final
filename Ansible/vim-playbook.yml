@@ -3,12 +3,10 @@
   hosts: util-final
   become: true
   tasks:
-  - apt:
-     upgrade: dist
-  - apt:
+  - yum:
      name: "*"
      state: latest
-  - apt:
+  - yum:
      name: vim
      state: latest
 
