@@ -1,0 +1,7 @@
+---
+- name: Final Vim
+  hosts: util-final
+  tasks:
+   - name: Install Vim
+     action: sudo apt-get install vim
+

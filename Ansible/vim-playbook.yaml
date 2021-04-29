@@ -1,9 +1,0 @@
----
-  - hosts: util-final
-    remote_user:
-    sudo: yes
-
-  tasks:
-  -  name: Install Vim
-     action: command: sudo apt-get install vim
-
