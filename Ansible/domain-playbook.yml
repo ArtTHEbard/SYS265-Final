@@ -10,5 +10,5 @@
         password: P@$$Word
         state: present
         domain_username: final\sjohnson
-        domain_password: Thebainted1
+        domain_password: ********
         domain_server: final.local
